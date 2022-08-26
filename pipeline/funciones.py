@@ -70,3 +70,12 @@ def data_type_mod(files):
             users[['gender', 'pet', 'preferred_payment_method']] = users[['gender', 'pet', 'preferred_payment_method']].astype('category')
             users[['kids_at_home']] = users[['kids_at_home']].astype('int64')
     return 'Data types changed.'
+
+def data_export(files):
+    for x in files:
+        if files[x]['file_name'] == 'users':
+            users.to_csv('C:/Users/Pacarena/Documents/GELT_data/users_limpio.csv', index=False)
+        if files[x]['file_name'] == 'tickets':
+            tickets.to_csv('C:/Users/Pacarena/Documents/GELT_data/tickets_limpio.csv', index=False)
+        if files[x]['file_name'] == 'ticket_lines':
+            ticket_lines.to_csv('C:/Users/Pacarena/Documents/GELT_data/ticket_lines_limpio.csv', index=False)
