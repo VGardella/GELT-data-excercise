@@ -10,7 +10,7 @@ from pathlib import Path
 #pd.pipe(data_load(archivos)).pipe(data_cleaning()).pipe(data_analysis()).pipe(data_type_mod())
 
 def data_pipeline(files, group, labels, server_data):
-
+    global users, tickets, ticket_lines, users_activity
     # Importacion y limpieza de los datos:
 
     data_load(files)

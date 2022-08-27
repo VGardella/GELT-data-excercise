@@ -45,6 +45,7 @@ def data_cleaning(files):
 # Creamos las nuevas columnas:
 
 def data_analysis(files):
+    global users, tickets, ticket_lines
     for x in files:
         if files[x]['file_name'] == 'users':
             group = [0, 15, 24, 39, 54, 75, 100]
