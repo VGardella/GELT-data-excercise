@@ -92,5 +92,5 @@ def data_export(files):
             ticket_lines.to_csv('C:/Users/Pacarena/Documents/GELT_data/ticket_lines_limpio.csv', index=False)
             print('Exported table "ticket_lines" to "ticket_lines_limpio.csv" successfully')
         if files[x]['file_name'] == 'users_activity':
-            ticket_lines.to_csv('C:/Users/Pacarena/Documents/GELT_data/users_activity_limpio.csv', index=False)
+            users_activity.to_csv('C:/Users/Pacarena/Documents/GELT_data/users_activity_limpio.csv', index=False)
             print('Exported table "users_activity" to "users_activity_limpio.csv" successfully')
