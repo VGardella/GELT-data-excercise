@@ -1,7 +1,8 @@
 import pandas as pd
-import numpy as np
 from datetime import datetime
 from pathlib import Path
+
+# Cargamos los archivos .csv:
 
 def data_load(files):
     for x in files:
@@ -9,6 +10,8 @@ def data_load(files):
         globals()[data] = pd.read_csv(files[x]['file_path'])
         print(f'{data} created correctly.')
     return 'All files processed. Use "file_name" as variable name.'
+
+# Hacemos la limpieza de los datos. Los pasos dependeran del nombre de la base de datos a limpiar:
 
 def data_cleaning(files):
     global users, tickets, ticket_lines
@@ -39,11 +42,13 @@ def data_cleaning(files):
 
     return 'All tables correctrly cleaned'
 
+# Creamos las nuevas columnas:
+
 def data_analysis(files):
-    global labels, groups, users, tickets, ticket_lines
     for x in files:
         if files[x]['file_name'] == 'users':
-
+            group = [0, 15, 24, 39, 54, 75, 100]
+            labels = ['Otros', '15-24', '25-39', '40-54', '55-75', 'Otros']
             users['age_group'] = pd.cut(datetime.today().year - users['birth_year'], bins = group, labels = labels, ordered=False).fillna('Otros')
 
             users = pd.merge(users, tickets[['user_id', 'ticket_id']].groupby('user_id').count(), \
@@ -67,6 +72,8 @@ def data_analysis(files):
             print('New columns added to "tickets" table.')
     return 'All new columns created.'
 
+# Modificamos la clase de algunas columnas para facilitar su introduccion a la base de datos:
+
 def data_type_mod(files):
     for x in files:
         if files[x]['file_name'] == 'users':
@@ -75,7 +82,10 @@ def data_type_mod(files):
             users['birth_year'] = users['birth_year'].astype('int64')
     return 'Data types changed.'
 
+# Creamos una tabla nueva:
+
 def data_organization(files):
+    global users_activity
     users_activity = pd.DataFrame()
     for x in files:
         if files[x]['file_name'] == 'users':
@@ -83,6 +93,8 @@ def data_organization(files):
             users.drop(['total_tickets', 'preferred_retailer', 'preferred_payment_method', 'total_spent'], axis=1, inplace=True)
     files.update({4: {'file_name': 'users_activity', 'file_path': ''}})
     return 'New table "users_activity" created.'
+
+# Funcion opcional de exportación de los datos a archivos .csv:
 
 def data_export(files):
     for x in files:
