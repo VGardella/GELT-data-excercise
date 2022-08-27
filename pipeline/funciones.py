@@ -23,6 +23,8 @@ def data_cleaning(files):
             users['pet'] = users['pet'].fillna('Ninguno')
             users['pet'] = users['pet'].replace('0', 'Ninguno')
             users['province'] = users['province'].apply(lambda x: x.title())
+            users['birth_year'] = users['birth_year'].fillna(0)
+
             print('"users" table data corrected.')
 
         if files[x]['file_name'] == 'tickets':
@@ -32,6 +34,7 @@ def data_cleaning(files):
 
             tickets['retailer'] = tickets['retailer'].apply(lambda x: x.title())
             tickets['payment_method'] = tickets['payment_method'].fillna('DES')
+            
             print('"tickets" table data corrected.')
 
     return 'All tables correctrly cleaned'
@@ -69,6 +72,7 @@ def data_type_mod(files):
         if files[x]['file_name'] == 'users':
             users[['gender', 'pet', 'preferred_payment_method']] = users[['gender', 'pet', 'preferred_payment_method']].astype('category')
             users[['kids_at_home']] = users[['kids_at_home']].astype('int64')
+            users['birth_year'] = users['birth_year'].astype('int64')
     return 'Data types changed.'
 
 def data_organization(files):
