@@ -84,9 +84,13 @@ def data_export(files):
     for x in files:
         if files[x]['file_name'] == 'users':
             users.to_csv('C:/Users/Pacarena/Documents/GELT_data/users_limpio.csv', index=False)
+            print('Exported table "users" to "users_limpio.csv" successfully')
         if files[x]['file_name'] == 'tickets':
             tickets.to_csv('C:/Users/Pacarena/Documents/GELT_data/tickets_limpio.csv', index=False)
+            print('Exported table "tickets" to "tickets_limpio.csv" successfully')
         if files[x]['file_name'] == 'ticket_lines':
             ticket_lines.to_csv('C:/Users/Pacarena/Documents/GELT_data/ticket_lines_limpio.csv', index=False)
+            print('Exported table "ticket_lines" to "ticket_lines_limpio.csv" successfully')
         if files[x]['file_name'] == 'users_activity':
             ticket_lines.to_csv('C:/Users/Pacarena/Documents/GELT_data/users_activity_limpio.csv', index=False)
+            print('Exported table "users_activity" to "users_activity_limpio.csv" successfully')
