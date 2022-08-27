@@ -1,5 +1,7 @@
 import pyodbc
 
+# Conectamos con el servidos y la base de datos especificados en el archivo 'atributos.py':
+
 def conect_db(dict):
         global cursor
         server = dict['server']
@@ -11,6 +13,8 @@ def conect_db(dict):
         con = pyodbc.connect(specs, autocommit=True)
         cursor = con.cursor()
         print('Connection Successfully Established.')
+
+# Insertamos los datos a la base de datos:
 
 def insert_data():
     for row in users.itertuples():
@@ -77,6 +81,8 @@ def insert_data():
     print('Data successfully uploaded to "users_activity".')
     
     con.commit()
+
+# Desconectamos de la base de datos:
 
 def disconect_db():
     cursor.close()
