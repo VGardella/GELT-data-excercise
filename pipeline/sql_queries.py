@@ -1,7 +1,9 @@
 import pyodbc
 
-def conect_db(server, database):
+def conect_db(dict):
         global cursor
+        server = dict['server']
+        database = dict['database']
         specs = ('Driver={SQL Server};'
                 f'Server={server};'
                 f'Database={database};'

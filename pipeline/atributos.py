@@ -4,3 +4,5 @@ archivos = {1: {'file_name': 'users', 'file_path': 'C:/Users/Pacarena/Documents/
 
 group = [0, 15, 24, 39, 54, 75, 100]
 labels = ['Otros', '15-24', '25-39', '40-54', '55-75', 'Otros']
+
+datos_servidor: {'server': 'CUCALAGRANDE\SQLEXPRESS', 'database':'Gelt'}
