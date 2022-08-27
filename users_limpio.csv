@@ -1,0 +1,463 @@
+user_id,gender,birth_year,adults_at_home,kids_at_home,pet,province,age_group
+105114,Femenino,1987.0,2,0,Ninguno,Madrid,25-39
+109649,Femenino,1962.0,3,0,Gato,Madrid,55-75
+113549,Femenino,1979.0,2,0,Ninguno,Madrid,40-54
+114263,No Binario,2017.0,1,0,Ninguno,Madrid,Otros
+115683,No Binario,1960.0,2,0,Ninguno,Madrid,55-75
+118268,No Binario,2017.0,1,0,Perro,Madrid,Otros
+118378,No Binario,1986.0,3,3,Perro,Madrid,25-39
+121816,No Binario,1988.0,2,0,Ninguno,Madrid,25-39
+137231,Femenino,,2,0,Ninguno,Madrid,Otros
+140006,Femenino,1987.0,1,0,Ninguno,Madrid,25-39
+142300,Femenino,1970.0,2,0,Ninguno,Madrid,40-54
+142410,No Binario,1970.0,2,0,Perro,Madrid,40-54
+148439,Femenino,1973.0,2,0,Ninguno,Madrid,40-54
+149716,No Binario,1984.0,2,2,Ninguno,Madrid,25-39
+151638,Femenino,1976.0,1,0,Ninguno,Madrid,40-54
+154778,Femenino,1953.0,4,0,Perro,Madrid,55-75
+156098,No Binario,1958.0,4,0,Perro,Madrid,55-75
+157921,Femenino,1990.0,4,0,Ninguno,Madrid,25-39
+162236,Masculino,1970.0,2,1,Ninguno,Madrid,40-54
+162849,Femenino,1976.0,1,0,Ninguno,Madrid,40-54
+165588,No Binario,1981.0,2,0,Ninguno,Madrid,40-54
+165614,Femenino,1990.0,2,0,Otros,Madrid,25-39
+165881,Femenino,2017.0,2,2,Ninguno,Madrid,Otros
+166498,No Binario,1980.0,1,0,Ninguno,Madrid,40-54
+171099,Masculino,2017.0,3,0,Perro,Madrid,Otros
+171384,Femenino,1994.0,2,1,Ninguno,Madrid,25-39
+172689,Femenino,1971.0,1,0,Ninguno,Madrid,40-54
+176770,Femenino,1988.0,2,0,Gato,Madrid,25-39
+180390,No Binario,1985.0,2,0,Perro,Madrid,25-39
+186373,No Binario,1965.0,2,3,Ninguno,Madrid,55-75
+186648,No Binario,1972.0,2,0,Ninguno,Madrid,40-54
+186892,No Binario,1989.0,2,1,Perro,Madrid,25-39
+187542,No Binario,1978.0,1,0,Ninguno,Madrid,40-54
+188590,No Binario,1990.0,1,0,Gato,Madrid,25-39
+190823,No Binario,1985.0,2,0,Otros,Madrid,25-39
+192164,No Binario,2017.0,2,0,Otros,Madrid,Otros
+200173,Femenino,1973.0,3,0,Ninguno,Madrid,40-54
+201321,No Binario,1979.0,1,0,Ninguno,Madrid,40-54
+201695,Femenino,1986.0,1,0,Gato,Madrid,25-39
+203984,No Binario,1958.0,2,0,Ninguno,Madrid,55-75
+207503,No Binario,1999.0,4,0,Perro,Madrid,15-24
+208950,Femenino,1986.0,4,0,Ninguno,Madrid,25-39
+212922,Femenino,1972.0,2,1,Ninguno,Madrid,40-54
+215050,No Binario,1984.0,4,0,Perro,Madrid,25-39
+217378,No Binario,1983.0,2,0,Perro,Madrid,25-39
+231777,No Binario,1990.0,2,0,Ninguno,Madrid,25-39
+232124,No Binario,1987.0,2,0,Ninguno,Madrid,25-39
+237587,Femenino,1982.0,2,0,Ninguno,Madrid,40-54
+238740,No Binario,1983.0,2,0,Ninguno,Madrid,25-39
+242603,No Binario,1970.0,2,2,Ninguno,Madrid,40-54
+243451,No Binario,1994.0,4,0,Ninguno,Madrid,25-39
+252436,Femenino,1983.0,2,0,Gato,Madrid,25-39
+255374,Femenino,1995.0,1,0,Ninguno,Madrid,25-39
+258129,Femenino,1987.0,2,1,Ninguno,Madrid,25-39
+268272,Femenino,1986.0,2,0,Ninguno,Madrid,25-39
+275605,Masculino,1973.0,3,1,Ninguno,Madrid,40-54
+282005,No Binario,1988.0,5,3,Gato,Madrid,25-39
+283232,No Binario,1982.0,1,2,Gato,Madrid,40-54
+283848,No Binario,1965.0,2,1,Ninguno,Madrid,55-75
+286036,No Binario,1990.0,2,0,Gato,Madrid,25-39
+286777,Femenino,1979.0,1,0,Ninguno,Madrid,40-54
+288733,No Binario,1976.0,2,2,Gato,Madrid,40-54
+292713,Femenino,1958.0,6,2,Gato,Madrid,55-75
+293075,No Binario,1957.0,6,3,Perro,Madrid,55-75
+298340,Femenino,1980.0,2,0,Ninguno,Madrid,40-54
+298915,Femenino,1960.0,2,0,Ninguno,Madrid,55-75
+299937,No Binario,1990.0,3,0,Ninguno,Madrid,25-39
+309543,Masculino,1992.0,2,0,Perro,Madrid,25-39
+314185,No Binario,1979.0,3,0,Ninguno,Madrid,40-54
+318159,No Binario,1992.0,1,0,Ninguno,Madrid,25-39
+319418,No Binario,1994.0,2,2,Perro,Madrid,25-39
+321706,No Binario,1982.0,3,1,Ninguno,Madrid,40-54
+323239,Masculino,1988.0,2,0,Otros,Madrid,25-39
+338891,Femenino,1978.0,1,0,Ninguno,Madrid,40-54
+349589,No Binario,1988.0,4,0,Ninguno,Madrid,25-39
+350094,Masculino,1995.0,2,0,Ninguno,Madrid,25-39
+356816,No Binario,1980.0,2,2,Ninguno,Madrid,40-54
+357289,No Binario,1982.0,3,0,Gato,Madrid,40-54
+357291,Femenino,1972.0,2,2,Ninguno,Madrid,40-54
+357533,No Binario,1986.0,2,0,Ninguno,Madrid,25-39
+361620,Femenino,1983.0,2,2,Ninguno,Madrid,25-39
+363694,Femenino,1972.0,1,0,Ninguno,Madrid,40-54
+364694,Femenino,1985.0,5,2,Gato,Madrid,25-39
+376303,Femenino,1980.0,1,0,Ninguno,Madrid,40-54
+377011,No Binario,2001.0,5,0,Ninguno,Madrid,15-24
+379361,Masculino,1983.0,2,1,Ninguno,Madrid,25-39
+381929,Femenino,1974.0,1,0,Ninguno,Madrid,40-54
+392150,Femenino,1970.0,2,0,Perro,Madrid,40-54
+414277,No Binario,1969.0,3,0,Ninguno,Madrid,40-54
+417965,No Binario,1991.0,2,0,Gato,Madrid,25-39
+431004,Masculino,1992.0,2,0,Perro,Madrid,25-39
+458686,Femenino,1984.0,2,0,Gato,Madrid,25-39
+460641,No Binario,1981.0,3,1,Otros,Madrid,40-54
+477876,Masculino,1978.0,1,0,Ninguno,Madrid,40-54
+483123,Femenino,1977.0,2,0,Gato,Madrid,40-54
+508394,No Binario,1966.0,2,0,Ninguno,Madrid,55-75
+508551,Masculino,1979.0,2,1,Otros,Madrid,40-54
+511228,Femenino,1970.0,2,2,Ninguno,Madrid,40-54
+511738,Masculino,1974.0,2,2,Ninguno,Madrid,40-54
+516713,Femenino,1991.0,4,0,Ninguno,Madrid,25-39
+544744,No Binario,1963.0,2,0,Perro,Madrid,55-75
+566066,No Binario,1993.0,3,0,Ninguno,Madrid,25-39
+582472,Masculino,1966.0,1,0,Ninguno,Madrid,55-75
+628123,Masculino,1990.0,4,1,Ninguno,Madrid,25-39
+629579,No Binario,1967.0,3,0,Ninguno,Madrid,55-75
+638399,Femenino,1992.0,1,0,Ninguno,Madrid,25-39
+643727,No Binario,1960.0,4,1,Perro,Madrid,55-75
+684825,Masculino,1990.0,4,0,Ninguno,Madrid,25-39
+687352,No Binario,1992.0,2,0,Ninguno,Madrid,25-39
+695439,Femenino,1989.0,1,0,Gato,Madrid,25-39
+696483,Femenino,1986.0,0,0,Ninguno,Madrid,25-39
+710918,Masculino,1997.0,2,0,Ninguno,Madrid,25-39
+754595,Femenino,1996.0,2,0,Ninguno,Madrid,25-39
+759151,Masculino,1990.0,2,0,Gato,Madrid,25-39
+768819,No Binario,1998.0,1,0,Ninguno,Madrid,15-24
+803042,No Binario,1979.0,2,2,Ninguno,Madrid,40-54
+831701,No Binario,1998.0,2,0,Ninguno,Madrid,15-24
+848610,Femenino,1989.0,2,0,Ninguno,Madrid,25-39
+863647,Masculino,1997.0,3,0,Ninguno,Madrid,25-39
+864344,No Binario,1992.0,2,0,Ninguno,Madrid,25-39
+873117,No Binario,1988.0,1,0,Ninguno,Madrid,25-39
+873333,Femenino,1984.0,2,0,Ninguno,Madrid,25-39
+875968,No Binario,1984.0,2,2,Ninguno,Madrid,25-39
+879168,Femenino,1986.0,2,0,Gato,Madrid,25-39
+883140,No Binario,1986.0,2,1,Ninguno,Madrid,25-39
+886680,No Binario,1986.0,2,0,Perro,Madrid,25-39
+887814,No Binario,1984.0,2,0,Ninguno,Madrid,25-39
+890399,Masculino,1976.0,2,1,Gato,Madrid,40-54
+893061,Femenino,1986.0,2,0,Perro,Madrid,25-39
+908850,No Binario,1997.0,1,0,Gato,Madrid,25-39
+909345,Masculino,1940.0,2,0,Ninguno,Madrid,Otros
+910844,No Binario,1984.0,2,1,Perro,Madrid,25-39
+915395,No Binario,1993.0,1,0,Ninguno,Madrid,25-39
+915979,Femenino,1990.0,3,0,Ninguno,Madrid,25-39
+915996,No Binario,1957.0,3,0,Ninguno,Madrid,55-75
+921029,Femenino,2004.0,2,2,Ninguno,Madrid,15-24
+921549,Femenino,1999.0,2,2,Otros,Madrid,15-24
+921620,Femenino,1985.0,1,0,Ninguno,Madrid,25-39
+921623,Masculino,1999.0,3,0,Ninguno,Madrid,15-24
+923947,Masculino,1974.0,2,1,Ninguno,Madrid,40-54
+927838,Femenino,1986.0,1,0,Ninguno,Madrid,25-39
+935254,No Binario,1985.0,2,2,Ninguno,Madrid,25-39
+938115,Femenino,,0,0,Ninguno,Madrid,Otros
+942130,Femenino,1985.0,2,1,Ninguno,Madrid,25-39
+947334,Femenino,1974.0,2,0,Ninguno,Madrid,40-54
+950512,Masculino,1985.0,2,0,Ninguno,Madrid,25-39
+951894,No Binario,1977.0,2,0,Ninguno,Madrid,40-54
+952830,No Binario,1973.0,2,0,Gato,Madrid,40-54
+965885,No Binario,1991.0,2,0,Ninguno,Madrid,25-39
+969490,No Binario,1972.0,1,0,Ninguno,Madrid,40-54
+970717,Femenino,1987.0,2,0,Otros,Madrid,25-39
+973096,Femenino,1987.0,1,0,Ninguno,Madrid,25-39
+983789,No Binario,1983.0,2,0,Ninguno,Madrid,25-39
+992933,Femenino,1969.0,1,1,Ninguno,Madrid,40-54
+995893,No Binario,1973.0,1,0,Ninguno,Madrid,40-54
+1001586,Femenino,1982.0,1,0,Ninguno,Madrid,40-54
+1003418,No Binario,1969.0,2,2,Ninguno,Madrid,40-54
+1005751,No Binario,1971.0,1,0,Ninguno,Madrid,40-54
+1005967,No Binario,1971.0,2,0,Ninguno,Madrid,40-54
+1010126,No Binario,1978.0,1,0,Ninguno,Madrid,40-54
+1014586,Femenino,1988.0,2,0,Ninguno,Madrid,25-39
+1018538,No Binario,1980.0,2,0,Gato,Madrid,40-54
+1023236,No Binario,2000.0,2,2,Ninguno,Madrid,15-24
+1025030,Femenino,1966.0,2,0,Gato,Madrid,55-75
+1028126,No Binario,1985.0,2,0,Ninguno,Madrid,25-39
+1028980,No Binario,1981.0,2,0,Ninguno,Madrid,40-54
+1029847,Femenino,1993.0,1,0,Ninguno,Madrid,25-39
+1031730,No Binario,2000.0,4,0,Ninguno,Madrid,15-24
+1033159,No Binario,1983.0,2,3,Perro,Madrid,25-39
+1033673,No Binario,1999.0,1,0,Ninguno,Madrid,15-24
+1035174,No Binario,1998.0,1,0,Ninguno,Madrid,15-24
+1042446,Femenino,1983.0,1,0,Ninguno,Madrid,25-39
+1044360,Femenino,1987.0,1,0,Ninguno,Madrid,25-39
+1049920,Femenino,1982.0,2,0,Gato,Madrid,40-54
+1053972,Femenino,1982.0,2,2,Ninguno,Madrid,40-54
+1055279,Femenino,1981.0,1,0,Ninguno,Madrid,40-54
+1056177,No Binario,1996.0,1,0,Ninguno,Madrid,25-39
+1062736,Femenino,1992.0,2,0,Ninguno,Madrid,25-39
+1064224,Femenino,1993.0,1,0,Perro,Madrid,25-39
+1073230,Femenino,1984.0,2,2,Ninguno,Madrid,25-39
+1087050,Femenino,1986.0,1,0,Ninguno,Madrid,25-39
+1089052,No Binario,1989.0,1,0,Ninguno,Madrid,25-39
+1098804,No Binario,1984.0,2,0,Otros,Madrid,25-39
+1101089,No Binario,1989.0,2,0,Ninguno,Madrid,25-39
+1102210,No Binario,1983.0,1,1,Perro,Madrid,25-39
+1103212,No Binario,1996.0,2,0,Gato,Madrid,25-39
+1106559,No Binario,,1,0,Ninguno,Madrid,Otros
+1112243,Femenino,1996.0,1,0,Ninguno,Madrid,25-39
+1113604,Femenino,1970.0,2,0,Ninguno,Madrid,40-54
+1115187,No Binario,1996.0,4,0,Ninguno,Madrid,25-39
+1121047,Otro,1986.0,2,0,Gato,Madrid,25-39
+1122521,Femenino,1984.0,1,0,Ninguno,Madrid,25-39
+1125924,No Binario,1968.0,4,0,Ninguno,Madrid,40-54
+1126056,Femenino,1981.0,2,0,Ninguno,Madrid,40-54
+1127665,No Binario,1991.0,1,0,Perro,Madrid,25-39
+1139340,No Binario,1993.0,1,0,Perro,Madrid,25-39
+1140038,Femenino,2002.0,2,0,Gato,Madrid,15-24
+1140330,Femenino,1964.0,2,0,Ninguno,Madrid,55-75
+1140765,Femenino,1994.0,2,0,Ninguno,Madrid,25-39
+1142513,No Binario,1967.0,2,2,Otros,Madrid,55-75
+1142936,Femenino,1998.0,4,0,Otros,Madrid,15-24
+1156684,No Binario,1986.0,5,1,Perro,Madrid,25-39
+1159242,No Binario,1993.0,2,0,Ninguno,Madrid,25-39
+1163035,No Binario,1981.0,2,0,Gato,Madrid,40-54
+1173842,No Binario,1978.0,2,2,Perro,Madrid,40-54
+1175048,No Binario,1998.0,4,0,Ninguno,Madrid,15-24
+1182335,Femenino,1968.0,2,2,Ninguno,Madrid,40-54
+1186659,Masculino,1991.0,1,0,Ninguno,Madrid,25-39
+1188152,Femenino,1965.0,1,0,Ninguno,Madrid,55-75
+1189512,Femenino,1983.0,2,0,Gato,Madrid,25-39
+1194300,No Binario,1998.0,2,0,Ninguno,Madrid,15-24
+1195421,No Binario,1964.0,2,0,Gato,Madrid,55-75
+1198067,No Binario,1981.0,1,0,Gato,Madrid,40-54
+1217828,No Binario,1997.0,1,0,Ninguno,Madrid,25-39
+1221785,Femenino,1991.0,1,0,Ninguno,Madrid,25-39
+1237591,No Binario,1995.0,1,0,Ninguno,Madrid,25-39
+1238450,Femenino,1964.0,2,0,Ninguno,Madrid,55-75
+1243191,No Binario,1992.0,2,0,Gato,Madrid,25-39
+1251566,No Binario,1994.0,2,0,Perro,Madrid,25-39
+1255777,Femenino,1991.0,1,0,Ninguno,Madrid,25-39
+1256565,No Binario,2001.0,3,0,Ninguno,Madrid,15-24
+1284506,Masculino,1991.0,2,0,Ninguno,Madrid,25-39
+1303091,Femenino,1985.0,2,0,Perro,Madrid,25-39
+1373071,No Binario,2001.0,1,0,Gato,Madrid,15-24
+1456451,No Binario,1996.0,2,0,Perro,Madrid,25-39
+1517206,No Binario,2000.0,3,0,Ninguno,Madrid,15-24
+1584331,No Binario,1972.0,2,0,Ninguno,Madrid,40-54
+1622466,No Binario,1996.0,4,0,Perro,Madrid,25-39
+1626571,No Binario,1988.0,2,0,Gato,Madrid,25-39
+1744211,No Binario,1967.0,3,0,Ninguno,Madrid,55-75
+1769301,Femenino,1978.0,1,0,Gato,Madrid,40-54
+1776886,Femenino,1978.0,2,3,Perro,Madrid,40-54
+1833386,Femenino,1970.0,1,0,Ninguno,Madrid,40-54
+1834171,Otro,1980.0,1,0,Ninguno,Madrid,40-54
+1840286,No Binario,1990.0,2,0,Ninguno,Madrid,25-39
+1846261,No Binario,1999.0,1,0,Ninguno,Madrid,15-24
+1869901,Femenino,1997.0,4,0,Ninguno,Madrid,25-39
+1874371,No Binario,1989.0,2,0,Ninguno,Madrid,25-39
+1910656,No Binario,1986.0,1,0,Ninguno,Madrid,25-39
+1912406,No Binario,1984.0,2,2,Ninguno,Madrid,25-39
+1929501,No Binario,1990.0,1,0,Ninguno,Madrid,25-39
+1948456,Femenino,1964.0,1,0,Ninguno,Madrid,55-75
+1948616,Femenino,1963.0,1,0,Ninguno,Madrid,55-75
+1961176,No Binario,2001.0,2,0,Perro,Madrid,15-24
+1991031,No Binario,1993.0,2,0,Perro,Madrid,25-39
+2025971,No Binario,1992.0,2,0,Ninguno,Madrid,25-39
+2030261,No Binario,1991.0,1,0,Perro,Madrid,25-39
+2050946,Femenino,1966.0,2,1,Ninguno,Madrid,55-75
+2085916,Femenino,1988.0,1,0,Ninguno,Madrid,25-39
+2091106,Femenino,1988.0,1,0,Ninguno,Madrid,25-39
+2148596,No Binario,1995.0,2,0,Ninguno,Madrid,25-39
+2152381,Femenino,1988.0,2,0,Perro,Madrid,25-39
+2179721,No Binario,2000.0,1,0,Ninguno,Madrid,15-24
+2181026,No Binario,2001.0,4,0,Ninguno,Madrid,15-24
+2211439,No Binario,1985.0,2,2,Perro,Madrid,25-39
+2226062,No Binario,1998.0,4,0,Perro,Madrid,15-24
+2228148,No Binario,1993.0,2,0,Ninguno,Madrid,25-39
+2228386,No Binario,1969.0,3,0,Ninguno,Madrid,40-54
+2236779,Femenino,1971.0,2,2,Perro,Madrid,40-54
+2245172,Femenino,1988.0,2,0,Ninguno,Madrid,25-39
+2265171,Femenino,1992.0,2,1,Gato,Madrid,25-39
+2283924,No Binario,1975.0,3,2,Perro,Madrid,40-54
+2305393,Femenino,1995.0,1,0,Otros,Madrid,25-39
+2343949,Femenino,1990.0,2,0,Ninguno,Madrid,25-39
+2388406,Femenino,1994.0,2,0,Ninguno,Madrid,25-39
+2396274,No Binario,1996.0,2,0,Ninguno,Madrid,25-39
+2402063,No Binario,1991.0,1,0,Ninguno,Madrid,25-39
+2406053,Femenino,1988.0,2,0,Perro,Madrid,25-39
+2421670,No Binario,2000.0,4,0,Perro,Madrid,15-24
+2431883,Femenino,1990.0,1,0,Ninguno,Madrid,25-39
+2481752,No Binario,1991.0,4,0,Ninguno,Madrid,25-39
+2482200,Femenino,,1,0,Ninguno,Madrid,Otros
+2498838,No Binario,1995.0,2,0,Ninguno,Madrid,25-39
+2505744,No Binario,1990.0,2,0,Ninguno,Madrid,25-39
+2513628,Femenino,1986.0,1,0,Ninguno,Madrid,25-39
+2527704,Femenino,1980.0,1,0,Ninguno,Madrid,40-54
+2535474,No Binario,1970.0,1,0,Ninguno,Madrid,40-54
+2582330,Femenino,1975.0,2,0,Perro,Madrid,40-54
+2598480,No Binario,1992.0,2,0,Perro,Madrid,25-39
+2609385,Femenino,2002.0,1,0,Ninguno,Madrid,15-24
+2621290,No Binario,1989.0,1,0,Ninguno,Madrid,25-39
+2625170,No Binario,1984.0,2,0,Ninguno,Madrid,25-39
+2625495,No Binario,1987.0,1,0,Ninguno,Madrid,25-39
+2627030,No Binario,1978.0,4,0,Ninguno,Madrid,40-54
+2649850,No Binario,1990.0,2,0,Ninguno,Madrid,25-39
+2666025,No Binario,1987.0,2,2,Ninguno,Madrid,25-39
+2669720,Femenino,1982.0,1,0,Ninguno,Madrid,40-54
+2675100,No Binario,1979.0,2,2,Ninguno,Madrid,40-54
+2694175,Femenino,,1,0,Ninguno,Madrid,Otros
+2699685,No Binario,1992.0,1,0,Ninguno,Madrid,25-39
+2700235,Femenino,1967.0,2,0,Perro,Madrid,55-75
+2704680,No Binario,1997.0,2,0,Ninguno,Madrid,25-39
+2722835,No Binario,1994.0,1,0,Ninguno,Madrid,25-39
+2726110,Femenino,1982.0,1,0,Perro,Madrid,40-54
+2731590,No Binario,1997.0,2,0,Ninguno,Madrid,25-39
+2732130,No Binario,1992.0,1,0,Ninguno,Madrid,25-39
+2765825,No Binario,1989.0,1,0,Perro,Madrid,25-39
+2769005,Femenino,1994.0,2,0,Ninguno,Madrid,25-39
+2811050,No Binario,1986.0,1,0,Ninguno,Madrid,25-39
+2813775,Femenino,1990.0,2,0,Ninguno,Madrid,25-39
+2854805,Femenino,1981.0,1,0,Ninguno,Madrid,40-54
+2893765,Femenino,1988.0,1,0,Otros,Madrid,25-39
+2898660,Femenino,1970.0,2,0,Gato,Madrid,40-54
+2930125,Femenino,1982.0,2,0,Ninguno,Madrid,40-54
+2935635,No Binario,1990.0,2,2,Gato,Madrid,25-39
+2938745,No Binario,2000.0,1,0,Ninguno,Madrid,15-24
+2939665,Femenino,2002.0,1,0,Ninguno,Madrid,15-24
+2958365,No Binario,1973.0,2,1,Ninguno,Madrid,40-54
+2975315,Femenino,1992.0,1,0,Ninguno,Madrid,25-39
+3009297,No Binario,1994.0,1,0,Ninguno,Madrid,25-39
+3020132,No Binario,1973.0,5,0,Ninguno,Madrid,40-54
+3063592,No Binario,1996.0,1,0,Ninguno,Madrid,25-39
+3065782,Femenino,1995.0,4,0,Ninguno,Madrid,25-39
+3078717,No Binario,1964.0,2,0,Ninguno,Madrid,55-75
+3121647,No Binario,1989.0,1,0,Ninguno,Madrid,25-39
+3123492,Femenino,2001.0,1,0,Ninguno,Madrid,15-24
+3141982,Masculino,1990.0,1,0,Ninguno,Madrid,25-39
+3142487,No Binario,1992.0,1,0,Ninguno,Madrid,25-39
+3153332,Femenino,1997.0,1,0,Ninguno,Madrid,25-39
+3153347,No Binario,2000.0,1,0,Ninguno,Madrid,15-24
+3154232,No Binario,1994.0,2,0,Ninguno,Madrid,25-39
+3189562,No Binario,1980.0,1,0,Perro,Madrid,40-54
+3198827,No Binario,1993.0,2,0,Ninguno,Madrid,25-39
+3213772,Femenino,1990.0,2,0,Ninguno,Madrid,25-39
+3236722,No Binario,1996.0,1,0,Ninguno,Madrid,25-39
+3250177,Femenino,2000.0,4,0,Ninguno,Madrid,15-24
+3266742,Femenino,2002.0,1,0,Otros,Madrid,15-24
+3272612,Femenino,1963.0,1,0,Gato,Madrid,55-75
+3273292,Femenino,1999.0,2,0,Ninguno,Madrid,15-24
+3285947,No Binario,,1,0,Ninguno,Madrid,Otros
+3290822,No Binario,1988.0,2,1,Gato,Madrid,25-39
+3296297,Femenino,2003.0,1,0,Ninguno,Madrid,15-24
+3309347,No Binario,1992.0,1,0,Ninguno,Madrid,25-39
+3318342,Femenino,1991.0,2,0,Ninguno,Madrid,25-39
+3319552,Femenino,1973.0,1,0,Ninguno,Madrid,40-54
+3325097,No Binario,1995.0,1,0,Ninguno,Madrid,25-39
+3333312,No Binario,1999.0,1,0,Ninguno,Madrid,15-24
+3349592,Femenino,1973.0,2,0,Ninguno,Madrid,40-54
+3359697,Femenino,1974.0,2,2,Ninguno,Madrid,40-54
+3387727,No Binario,1975.0,4,0,Ninguno,Madrid,40-54
+3404547,No Binario,1987.0,1,0,Ninguno,Madrid,25-39
+3406197,Femenino,1990.0,1,0,Ninguno,Madrid,25-39
+3426372,No Binario,1994.0,2,0,Ninguno,Madrid,25-39
+3430042,Femenino,1987.0,3,0,Ninguno,Madrid,25-39
+3438832,No Binario,1999.0,1,0,Ninguno,Madrid,15-24
+3442717,No Binario,1997.0,1,0,Ninguno,Madrid,25-39
+3462147,Otro,1993.0,2,0,Ninguno,Madrid,25-39
+3463597,Masculino,,1,0,Ninguno,Madrid,Otros
+3467772,No Binario,1964.0,2,1,Ninguno,Madrid,55-75
+3477432,Masculino,1996.0,0,0,Ninguno,Madrid,25-39
+3493842,No Binario,1993.0,3,0,Ninguno,Madrid,25-39
+3524337,No Binario,1985.0,2,2,Ninguno,Madrid,25-39
+3531597,No Binario,1985.0,2,0,Ninguno,Madrid,25-39
+3533527,Femenino,1998.0,2,2,Ninguno,Madrid,15-24
+3539272,No Binario,1987.0,1,0,Ninguno,Madrid,25-39
+3556197,Femenino,1984.0,1,1,Ninguno,Madrid,25-39
+3570197,Femenino,1965.0,1,0,Ninguno,Madrid,55-75
+3570287,Femenino,1960.0,1,0,Ninguno,Madrid,55-75
+3570527,No Binario,1982.0,2,1,Ninguno,Madrid,40-54
+3573897,No Binario,1993.0,2,0,Gato,Madrid,25-39
+3588022,No Binario,1993.0,2,0,Perro,Madrid,25-39
+3632765,No Binario,1990.0,1,0,Ninguno,Madrid,25-39
+3655110,No Binario,1990.0,2,0,Ninguno,Madrid,25-39
+3665080,Femenino,1991.0,2,0,Ninguno,Madrid,25-39
+3676554,Otro,1989.0,5,0,Ninguno,Madrid,25-39
+3677127,No Binario,1988.0,2,1,Ninguno,Madrid,25-39
+3685046,No Binario,1978.0,2,0,Ninguno,Madrid,40-54
+3685553,Femenino,1991.0,2,0,Perro,Madrid,25-39
+3687580,No Binario,1989.0,2,0,Ninguno,Madrid,25-39
+3689539,Femenino,1992.0,3,0,Ninguno,Madrid,25-39
+3691360,Femenino,1968.0,1,0,Ninguno,Madrid,40-54
+3691381,Femenino,2001.0,1,0,Ninguno,Madrid,15-24
+3691555,No Binario,1993.0,2,0,Ninguno,Madrid,25-39
+3694288,No Binario,1998.0,1,0,Ninguno,Madrid,15-24
+3695536,No Binario,1994.0,4,0,Perro,Madrid,25-39
+3696610,Femenino,1996.0,2,0,Ninguno,Madrid,25-39
+3697087,No Binario,1998.0,1,0,Ninguno,Madrid,15-24
+3698248,Femenino,1983.0,1,0,Ninguno,Madrid,25-39
+3699748,Femenino,1987.0,1,0,Ninguno,Madrid,25-39
+3701098,Masculino,,1,0,Ninguno,Madrid,Otros
+3704548,No Binario,1994.0,4,0,Ninguno,Madrid,25-39
+3704842,No Binario,1991.0,1,0,Ninguno,Madrid,25-39
+3705415,Femenino,1994.0,2,0,Ninguno,Madrid,25-39
+3707905,Femenino,1981.0,2,2,Ninguno,Madrid,40-54
+3708844,Femenino,2001.0,3,0,Ninguno,Madrid,15-24
+3709378,Masculino,,1,0,Ninguno,Madrid,Otros
+3710071,Otro,2000.0,2,0,Ninguno,Madrid,15-24
+3711829,Femenino,,1,0,Ninguno,Madrid,Otros
+3713158,No Binario,1989.0,1,0,Ninguno,Madrid,25-39
+3713656,Femenino,2001.0,1,0,Ninguno,Madrid,15-24
+3713806,No Binario,1998.0,1,0,Ninguno,Madrid,15-24
+3714226,Femenino,1994.0,2,0,Ninguno,Madrid,25-39
+3714721,No Binario,1992.0,2,0,Gato,Madrid,25-39
+3718945,Otro,2000.0,3,0,Gato,Madrid,15-24
+3720733,Femenino,1992.0,1,0,Ninguno,Madrid,25-39
+3721135,No Binario,1981.0,1,0,Ninguno,Madrid,40-54
+3721138,No Binario,1990.0,1,0,Ninguno,Madrid,25-39
+3721642,Femenino,2003.0,1,0,Ninguno,Madrid,15-24
+3722611,No Binario,2001.0,2,0,Ninguno,Madrid,15-24
+3724078,No Binario,1997.0,3,0,Ninguno,Madrid,25-39
+3724381,Femenino,1985.0,1,0,Perro,Madrid,25-39
+3726979,Femenino,1979.0,2,1,Ninguno,Madrid,40-54
+3728236,Femenino,1988.0,1,0,Ninguno,Madrid,25-39
+3729133,No Binario,1963.0,2,2,Ninguno,Madrid,55-75
+3729361,No Binario,1992.0,2,2,Otros,Madrid,25-39
+3731740,No Binario,1998.0,4,0,Ninguno,Madrid,15-24
+3731863,Masculino,,1,0,Ninguno,Madrid,Otros
+3732022,Masculino,,1,0,Ninguno,Madrid,Otros
+3732871,Femenino,,1,0,Ninguno,Madrid,Otros
+3732973,Masculino,,1,0,Ninguno,Madrid,Otros
+3732997,Masculino,,1,0,Ninguno,Madrid,Otros
+3733012,Masculino,,1,0,Ninguno,Madrid,Otros
+3734161,Masculino,,1,0,Ninguno,Madrid,Otros
+3734326,Masculino,,1,0,Ninguno,Madrid,Otros
+3737215,Femenino,1990.0,1,0,Ninguno,Madrid,25-39
+3737248,No Binario,1991.0,1,0,Otros,Madrid,25-39
+3737278,Femenino,1961.0,1,0,Ninguno,Madrid,55-75
+3737635,No Binario,,1,0,Ninguno,Madrid,Otros
+3740296,No Binario,1965.0,4,0,Perro,Madrid,55-75
+3740551,Femenino,1993.0,2,0,Perro,Madrid,25-39
+3742708,No Binario,1997.0,2,0,Ninguno,Madrid,25-39
+3746563,Femenino,2004.0,1,0,Ninguno,Madrid,15-24
+3748933,No Binario,2002.0,1,0,Ninguno,Madrid,15-24
+3749044,Masculino,,1,0,Ninguno,Madrid,Otros
+3750058,Femenino,1988.0,1,0,Ninguno,Madrid,25-39
+3753274,No Binario,1997.0,2,0,Ninguno,Madrid,25-39
+3755731,Femenino,1977.0,1,0,Ninguno,Madrid,40-54
+3757354,No Binario,1996.0,2,0,Perro,Madrid,25-39
+3758356,Masculino,,1,0,Ninguno,Madrid,Otros
+3758653,Femenino,1991.0,2,0,Gato,Madrid,25-39
+3759034,Masculino,,1,0,Ninguno,Madrid,Otros
+3759097,Masculino,,1,0,Ninguno,Madrid,Otros
+3759187,Masculino,,1,0,Ninguno,Madrid,Otros
+3759322,Masculino,,1,0,Ninguno,Madrid,Otros
+3761113,Masculino,,1,0,Ninguno,Madrid,Otros
+3762784,Masculino,,1,0,Ninguno,Madrid,Otros
+3766993,Femenino,2002.0,1,0,Otros,Madrid,15-24
+3769471,Femenino,1979.0,1,0,Ninguno,Madrid,40-54
+3771676,Masculino,,1,0,Ninguno,Madrid,Otros
+3780154,Femenino,1972.0,2,1,Ninguno,Madrid,40-54
+3784933,No Binario,1967.0,2,2,Perro,Madrid,55-75
+3789652,Femenino,1979.0,1,0,Ninguno,Madrid,40-54
+3790249,No Binario,1998.0,2,0,Perro,Madrid,15-24
+3790369,No Binario,1980.0,1,2,Ninguno,Madrid,40-54
+3790783,No Binario,1987.0,2,0,Ninguno,Madrid,25-39
+3794515,Femenino,1996.0,2,0,Perro,Madrid,25-39
+3796750,Masculino,,1,0,Ninguno,Madrid,Otros
+3799777,Masculino,,1,0,Ninguno,Madrid,Otros
+3801589,No Binario,1993.0,2,0,Gato,Madrid,25-39
+3804066,Masculino,,1,0,Ninguno,Madrid,Otros
+3804816,Femenino,1992.0,2,0,Ninguno,Madrid,25-39
+3806124,Masculino,,1,0,Ninguno,Madrid,Otros
+3806133,Masculino,,1,0,Ninguno,Madrid,Otros
+3806322,No Binario,,1,0,Ninguno,Madrid,Otros
+3810901,No Binario,1980.0,2,1,Otros,Madrid,40-54
+3812461,No Binario,1989.0,2,0,Otros,Madrid,25-39
+3814105,No Binario,1992.0,1,0,Ninguno,Madrid,25-39
+3881740,Femenino,1987.0,2,3,Perro,Madrid,25-39
+3907969,Masculino,,1,0,Ninguno,Madrid,Otros
+3910657,Masculino,,1,0,Ninguno,Madrid,Otros
+3913276,No Binario,1994.0,2,0,Ninguno,Madrid,25-39
+4366833,Masculino,,1,0,Ninguno,Madrid,Otros
