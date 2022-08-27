@@ -71,6 +71,15 @@ def data_type_mod(files):
             users[['kids_at_home']] = users[['kids_at_home']].astype('int64')
     return 'Data types changed.'
 
+def data_organization(files):
+    users_activity = pd.DataFrame()
+    for x in files:
+        if files[x]['file_name'] == 'users':
+            users_activity = users[['user_id', 'total_tickets', 'preferred_retailer', 'preferred_payment_method', 'total_spent']]
+            users.drop(['total_tickets', 'preferred_retailer', 'preferred_payment_method', 'total_spent'], axis=1, inplace=True)
+    files.update({4: {'file_name': 'users_activity', 'file_path': ''}})
+    return 'New table "users_activity" created.'
+
 def data_export(files):
     for x in files:
         if files[x]['file_name'] == 'users':
@@ -79,3 +88,5 @@ def data_export(files):
             tickets.to_csv('C:/Users/Pacarena/Documents/GELT_data/tickets_limpio.csv', index=False)
         if files[x]['file_name'] == 'ticket_lines':
             ticket_lines.to_csv('C:/Users/Pacarena/Documents/GELT_data/ticket_lines_limpio.csv', index=False)
+        if files[x]['file_name'] == 'users_activity':
+            ticket_lines.to_csv('C:/Users/Pacarena/Documents/GELT_data/users_activity_limpio.csv', index=False)
