@@ -7,7 +7,6 @@ import pyodbc
 from datetime import datetime
 from pathlib import Path
 
-#pd.pipe(data_load(archivos)).pipe(data_cleaning()).pipe(data_analysis()).pipe(data_type_mod())
 tablas = {}
 
 def data_pipeline(files, tables, server_data):
