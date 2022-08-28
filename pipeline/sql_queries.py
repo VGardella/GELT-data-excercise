@@ -3,7 +3,6 @@ import pyodbc
 # Conectamos con el servidos y la base de datos especificados en el archivo 'atributos.py':
 
 def conect_db(dict):
-        global cursor
         server = dict['server']
         database = dict['database']
         specs = ('Driver={SQL Server};'
@@ -13,11 +12,12 @@ def conect_db(dict):
         con = pyodbc.connect(specs, autocommit=True)
         cursor = con.cursor()
         print('Connection Successfully Established.')
+        return con, cursor
 
 # Insertamos los datos a la base de datos:
 
-def insert_data():
-    for row in users.itertuples():
+def insert_data(con, cursor, tables):
+    for row in tables['users'].itertuples():
         cursor.execute('''
                     INSERT INTO users (user_id, gender, birth_year, adults_at_home, kids_at_home,
                     pet, province, age_group)
@@ -34,7 +34,7 @@ def insert_data():
                     )
     print('Data successfully uploaded to "users".')
 
-    for row in tickets.itertuples():
+    for row in tables['tickets'].itertuples():
         cursor.execute('''
                     INSERT INTO tickets (ticket_id, user_id, retailer, payment_method, date,
                     ticket_amount)
@@ -49,7 +49,7 @@ def insert_data():
                     )
     print('Data successfully uploaded to "tickets".')
 
-    for row in ticket_lines.itertuples():
+    for row in tables['ticket_lines'].itertuples():
         cursor.execute('''
                     INSERT INTO ticket_lines (id, ticket_id, category1_id, category1_name, category2_id, category2_name,
                     product_name, units, total_amount)
@@ -67,7 +67,7 @@ def insert_data():
                     )
     print('Data successfully uploaded to "ticket_lines".')
 
-    for row in users_activity.itertuples():
+    for row in tables['users_activity'].itertuples():
         cursor.execute('''
                     INSERT INTO users_activity (user_id, total_tickets, preferred_retailer, preferred_payment_method, total_spent)
                     VALUES (?,?,?,?,?)
@@ -84,6 +84,6 @@ def insert_data():
 
 # Desconectamos de la base de datos:
 
-def disconect_db():
+def disconect_db(cursor):
     cursor.close()
     print('Conection closed.')
