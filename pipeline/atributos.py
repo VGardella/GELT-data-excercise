@@ -7,3 +7,7 @@ archivos = {1: {'file_name': 'users', 'file_path': 'C:/Users/Pacarena/Documents/
 # Diccionario con los datos del servidor y la base de datos del SQL Server:
 
 server_data = {'server': 'CUCALAGRANDE\SQLEXPRESS', 'database':'Gelt'}
+
+
+
+

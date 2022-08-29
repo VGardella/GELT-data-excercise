@@ -29,3 +29,6 @@ def data_pipeline(files, tables, server_data):
 
 if __name__ == '__main__':
     data_pipeline(archivos, tablas, server_data)
+
+
+    
