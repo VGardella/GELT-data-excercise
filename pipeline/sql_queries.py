@@ -87,3 +87,6 @@ def insert_data(con, cursor, tables):
 def disconect_db(cursor):
     cursor.close()
     print('Conection closed.')
+
+
+    
